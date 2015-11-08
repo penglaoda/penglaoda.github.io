@@ -3,31 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>hexo介绍 | Michael blog</title>
+  <title>Tag: sublime | Michael blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="A fast, simple &amp;amp; powerful blog framework—hexo安装hexo之前需要安装：node.jsgit
-安装$ npm install -g hexo-cli
-命令$ hexo -init [folder] #Initializes a website
-$ hexo -new [layout] &amp;lt;title&amp;gt; #新建文章
-$ hexo -gen">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hexo介绍">
-<meta property="og:url" content="http://penglaoda.github.io/2015/11/08/hexo介绍/index.html">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Michael blog">
+<meta property="og:url" content="http://penglaoda.github.io/tags/sublime/index.html">
 <meta property="og:site_name" content="Michael blog">
-<meta property="og:description" content="A fast, simple &amp;amp; powerful blog framework—hexo安装hexo之前需要安装：node.jsgit
-安装$ npm install -g hexo-cli
-命令$ hexo -init [folder] #Initializes a website
-$ hexo -new [layout] &amp;lt;title&amp;gt; #新建文章
-$ hexo -gen">
-<meta property="og:image" content="http://penglaoda.github.io/images/hexo.jpg">
-<meta property="og:updated_time" content="2015-11-08T05:05:58.098Z">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo介绍">
-<meta name="twitter:description" content="A fast, simple &amp;amp; powerful blog framework—hexo安装hexo之前需要安装：node.jsgit
-安装$ npm install -g hexo-cli
-命令$ hexo -init [folder] #Initializes a website
-$ hexo -new [layout] &amp;lt;title&amp;gt; #新建文章
-$ hexo -gen">
+<meta name="twitter:title" content="Michael blog">
+<meta name="twitter:description">
   
   
     <link rel="icon" href="/favicon.png">
@@ -97,60 +83,67 @@ $ hexo -gen">
           <section id="main">
             <div class="main-body-header">
 
-              <h1 class="header"><a class="page-title-link" href="/categories/Technology/">Technology</a></h1>
+              <h1 class="header"><i class="icon fa fa-tag"></i>标签：<em>sublime</em></h1>
             </div>
             <div class="main-body-content">
               
-  <article id="post-hexo介绍" class="article article-single article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-      <!--  -->
-      
-        <header class="article-header">
-          
   
-    <h1 class="article-title" itemprop="name">
-      hexo介绍
-    </h1>
   
-
-        </header>
+    
+    
       
-      <p class="article-byline">
-        <a href="/2015/11/08/hexo介绍/" class="article-date">
-  <time datetime="2015-11-08T04:21:42.000Z" itemprop="datePublished">2015-11-08</time>
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2015" class="archive-year"><i class="icon fa fa-calendar-o"></i>2015</a>
+        </div>
+        <div class="archives">
+    
+    
+    
+      <div class="article-row">
+    
+        
+  <article class="article article-summary">
+    <div class="article-summary-inner">
+      
+<a href="/2015/11/08/sublime/" class="thumbnail">
+  
+    <span style="background-image:url(/images/sublime.jpg
+)" alt="sublime" class="thumbnail-image"></span>
+  
 </a>
-      </p>
-      <div class="article-entry" itemprop="articleBody">
-        <p><img src="/images/hexo.jpg" alt="hexo"></p>
-<h2 id="A_fast,_simple_&amp;_powerful_blog_framework—hexo">A fast, simple &amp; powerful blog framework—<a href="https://hexo.io/docs/index.html" target="_blank" rel="external">hexo</a></h2><p>安装hexo之前需要安装：<br>node.js<br>git</p>
-<h3 id="安装">安装</h3><pre><code>$ npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo-cli</span>
-</code></pre><h3 id="命令">命令</h3><pre><code><span class="variable">$ </span>hexo -init [folder] <span class="comment">#Initializes a website</span>
-<span class="variable">$ </span>hexo -new [layout] &lt;title&gt; <span class="comment">#新建文章</span>
-<span class="variable">$ </span>hexo -generate <span class="comment">#生成静态网页，每次修改后都需要执行此命令</span>
-<span class="variable">$ </span>hexo -server <span class="comment">#在本地启动服务器，http://localhost:4000/</span>
-<span class="variable">$ </span>hexo -deploy <span class="comment">#部署网站到github或者其他地方</span>
-</code></pre><h3 id="主题">主题</h3><p>下载主题后，修改config.yml文件中的theme选项</p>
-<pre><code>cd themes
-git <span class="keyword">clone</span> <span class="title">xxxxxxxxxxxxxxxx</span> /<span class="comment">## 粘贴上URL ##/</span>
-</code></pre><h3 id="_config-yml文件部署设置">_config.yml文件部署设置</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: ssh:<span class="comment">//git@github.com/yourrul</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<h3 id="注意事项">注意事项</h3><ol>
-<li>每次创建（修改）博客后，都可以先在本地查看，然后上传部署到Git上</li>
-<li>每次deploy之前，需要先执行generate生成静态文件</li>
-</ol>
-<h3 id="总结">总结</h3><p>因为 Hexo 生成的一套静态网页，我们就可以把 “public”（默认）下的文件全部放在某个免费的空间（比如七牛云存储、Github 空间）上，不需要借助任何 Web 服务器，我们就可以搭建一个基本的网站出来。对于个人博主来说，这样省时省钱，是一个很经济的方法。</p>
 
+      <div class="article-meta">
+        <p class="category"><a class="article-category-link" href="/categories/Technology/">Technology</a></p>
+        <p class="date"><time datetime="2015-11-08T05:39:45.000Z" itemprop="datePublished">2015-11-08</time></p>
       </div>
-      <footer class="article-footer">
-        <a data-url="http://penglaoda.github.io/2015/11/08/hexo介绍/" data-id="cigq4rvgv000d0gptzhmhdavp" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+      <h2 class="article-title">
+        <a href="/2015/11/08/sublime/" class="title">sublime</a>
+      </h2>
+      <p class="article-excerpt">
         
         
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+下载安装Sublime Texthttp://www.sublimetext.com/3
+添加Sublime Text到环境变量
+使用win+R运行sysdm.cpl打开“系统属性”
+然后在“高级”选项卡里选择“环境变量”，编辑“Path”，增加Sublime Text的安装目录
+接下来你就可以在命令行里面利用subl命令直接使用Sublime Text了
 
-      </footer>
+subl file    ::使用S
+      </p>
     </div>
   </article>
+
+    
+      </div>
+    
   
   
+    </div></section>
+  
+  
+
 
             </div>
           </section>
@@ -166,29 +159,6 @@ git <span class="keyword">clone</span> <span class="title">xxxxxxxxxxxxxxxx</spa
       
     </ul>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2015/11/08/sublime/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <p class="article-nav-title">
-        
-          sublime
-        
-      </p>
-      <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
-  
-  
-    <a href="/2015/10/23/nodejs-web-hexo总结/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">上一篇</strong>
-      <p class="article-nav-title">nodejs_web_hexo总结</p>
-      <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
-    </a>
-  
-</nav>
-
   
   <div class="widgets-container">
     
